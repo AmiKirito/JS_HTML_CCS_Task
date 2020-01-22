@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.data{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:85%;
+    flex-basis: auto;
+    flex-wrap: wrap;
+}
+.phone{
+    display: flex;  
+    height: 150px;
+    min-width: 20%;
+    max-width: 20%;
+    min-height: auto;
+    border: 1px solid rgb(109, 109, 109);
+    border-radius: 5px;
+    margin: 10px;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+.imgBox{
+    display: flex;
+    width: 45%;
+    height: 90%;
+}
+.dataBox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:50%;
+}
+.imgPic{
+    width: 100%;
+    height: 100%;
+}
+p{
+    margin: 0;
+}
+.price{
+   display: flex;
+   clear: right; 
+   font-size: 15px;
+}
+.oldPrice{
+    text-decoration: line-through;
+    color: rgb(58, 58, 58);
+    padding: 5px;
+    font-size: 13px;
+    margin-block-start: 0;
+    margin-inline-end: 0;
+}
+.newPrice{
+    color: red;
+    font-size: 15px;
+}
+.phoneTitle{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.phoneRating{
+    display: flex;
+    font-size: 13px;
+}
+header{
+    height: 75px;
+    background-color: rgb(230, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 100%; 
+    background-color: rgb(230, 228, 228);
+}
